@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="style_demandes.css">
+    <script src="https://kit.fontawesome.com/1e94604817.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="ensate.png" alt=""></li>
+                <li class="li1"><a href="../index.php">Accueil</a></li>
+                <li class="li1"><a href="../index.php #footer">Contact</a></li>
+                <li class="li1"><a href="../index.php #work">A propos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_1">
+        
+        <div class="sect2">
+            <div id="ico1"><i class="fa-solid fa-file-contract" style="color: #9c9c9c;"></i></div>
+            <h2>Demandes</h2>
+            <button id="button1">Faire une demande</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Faire une demande</h2>
+                    <form id="demandeForm" action="#" method="post" enctype="multipart/form-data">
+                        <div class="input-box">
+                            <input type="email" name="Email" id="inputEmail" placeholder="Votre Email" required>
+                            <span id="emailStatus"></span>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="appogee" id="inputAppogee" placeholder="Code Apogée" required>
+                            <span id="appogeeStatus"></span>
+                        </div>
+                        <div class="input-box">
+                            <select id="selectType" name="Type">
+                                <option value="">Type de document</option>
+                                <option value="Attestation de Reussite">Attestation de Reussite</option>
+                                <option value="Convention de Stage">Convention de Stage</option>
+                                <option value="Attestation de Scolarité">Attestation de Scolarité</option>
+                                <option value="Relevé de Notes">Relevé de Notes</option>
+                            </select>
+                            <div class="input-box" id="yearField" style="display: none;">
+                                <input type="text" name="annee" id="inputYear" placeholder="Année">
+                                <span id="anneeStatus"></span>
+                            </div>
+                            <div id="yearFieldScolarite" style="display: none;">
+                                <input type="text" id="inputYearScolarite" placeholder="Année">
+                            </div>
+                            <div id="conventionStageFields" style="display: none;">
+                                <label for="inputTypeStage">Type de stage:</label>
+                                <input type="text" name="type_stage" id="inputTypeStage" placeholder="Saisissez le type de stage">
+                                <label for="inputDateDebut">Date de début:</label>
+                                <input type="date" name="datedebut" id="inputDateDebut" placeholder="Saisissez la date de début">
+                                <label for="inputDateFin">Date de fin:</label>
+                                <input type="date" name="datefin" id="inputDateFin" placeholder="Saisissez la date de fin">
+                                <label for="inputNomEntreprise">Nom de l'entreprise:</label>
+                                <input type="text" name="nom_entreprise" id="inputNomEntreprise"
+                                    placeholder=" Saisissez le nom de l'entreprise">
+                                <label for="inputAdresseEntreprise">Adresse de l'entreprise:</label>
+                                <input type="text" name="adresse_entreprise" id="inputAdresseEntreprise"
+                                    placeholder=" Saisissez l'adresse de l'entreprise">
+                                <label for="inputNomEncadrant">Nom de l'encadrant:</label>
+                                <input type="text" name="nom_encadrant" id="inputNomEncadrant"
+                                    placeholder="Saisissez le nom de l'encadrant">
+                                <label for="inputEmailEncadrant">Email de l'encadrant:</label>
+                                <input type="email" name="email_encadrant" id="inputEmailEncadrant"
+                                    placeholder="Saisissez l'email de l'encadrant">
+                                <label for="inputTelEncadrant">Téléphone de l'encadrant:</label>
+                                <input type="tel" name="tel_encadrant" id="inputTelEncadrant"
+                                    placeholder="Saisissez le téléphone de l'encadrant">
+                            </div>
+                            <div id="releveNotesField" style="display: none;">
+                                <input type="text" id="inputYearReleve" name="yearReleve"
+                                    placeholder="Année du relevé de notes">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="hidden" name="idstudent" id="inputIdStudent" value="<?php echo $idStudent; ?>">
+                        </div>
+                        <div class="input-box">
+                            <button type="submit">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="demande.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,340 @@
+/* style du header*/
+
+header {
+    padding: 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    font-size: 14px;
+}
+
+nav ul .li1 {
+    display: inline;
+    margin: 0 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.div1 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 50px;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container form input {
+    margin: 10px 0;
+    padding: 15px 10px;
+    width: 65%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.ppp2 {
+    text-align: center;
+}
+
+.ppp1 {
+    margin: 10px 0;
+    padding: 15px 10px;
+    width: 65%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #bbb;
+    color: #000;
+    border: 1px solid #bbb;
+}
+
+.ppp1:hover {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+/* style de section du a propos*/
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container1 .title_1 {
+    text-align: center;
+    color: #17657D;
+    font-size: 45px;
+    margin-left: 3rem;
+}
+
+.prag_1 {
+    flex: 1;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    font-size: 18px;
+    font-family: 'Nunito';
+    color: black;
+    text-align: center;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.prag_1 .phrase {
+    font-weight: bolder;
+}
+
+
+/* style de page2 */
+
+.main_1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sect2 {
+    width: 700px;
+    height: 500px;
+    /* Augmenter la largeur des boxes */
+    border: 2px solid #bbb;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+    /* Augmenter l'espacement entre les boxes */
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+/* ... Votre autre code CSS ... */
+
+
+.sect2:hover {
+    border: 2px solid black;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.button input[type="submit"]:hover {
+    background-color: #fff;
+    color: #17657D;
+    border: 2px solid #17657D;
+}
+
+.button input[type="submit"] {
+    padding: 12px 30px;
+    /* Ajuster la taille des boutons */
+    border-radius: 40px;
+    background-color: #17657D;
+    color: #fff;
+    border: 2px solid #17657D;
+}
+
+button {
+    padding: 12px 30px;
+    /* Ajuster la taille des boutons */
+    border-radius: 40px;
+    background-color: #17657D;
+    color: #fff;
+    border: 2px solid #17657D;
+    border: none;
+    cursor: pointer;
+    display: block;
+    /* Pour centrer les boutons */
+    margin: 0 auto;
+    /* Pour centrer les boutons */
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #17657D;
+    border: 2px solid #17657D;
+}
+
+.reclamation-btn {
+    margin-top: 80px;
+}
+
+h2 {
+    font-family: 'Raleway';
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.demande {
+    position: center;
+}
+
+#ico1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#ico2 {
+    text-align: center;
+}
+
+.contp {
+    font-family: 'Nunito';
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.sect2 input {
+    text-align: center;
+    margin: 5px 0;
+    padding: 10px 10px;
+    width: 45%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+}
+
+.sect2.reclamations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 900px;
+}
+
+.sect2.reclamations form {
+    width: 800px;
+    max-width: 900px;
+}
+
+.reclamations form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reclamations textarea {
+    width: 80%;
+    /* Réduire la largeur du textarea */
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.reclamations button {
+    width: 50%;
+    /* Réduire la largeur du bouton */
+    padding: 8px 20px;
+    border-radius: 40px;
+    background-color: #17657D;
+    color: #fff;
+    border: 2px solid #17657D;
+    cursor: pointer;
+}
+
+.reclamations button:hover {
+    background-color: #fff;
+    color: #17657D;
+    border: 2px solid #17657D;
+}
+
+.modal {
+    /*display: none;*/
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 9999;
+    max-width: 80%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.input-box {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.input-box input {
+    display: block;
+    margin: 0 auto;
+}
+
+.input-box select {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 10px;
+    width: 45%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+}
+
+.close1 {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    cursor: pointer;
+}
+
+/* Style pour les champs Email */
+/* Style pour les champs Email et Code Apogée */
+.input-box input[type="email"],
+.input-box input[type="text"] {
+    width: 45%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}

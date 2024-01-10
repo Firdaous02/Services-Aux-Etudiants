@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="style_demandes.css">
+    <script src="https://kit.fontawesome.com/1e94604817.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="ensate.png" alt=""></li>
+                <li class="li1"><a href="../index.php">Accueil</a></li>
+                <li class="li1"><a href="../index.php #footer">Contact</a></li>
+                <li class="li1"><a href="../index.php #work">A propos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_1">
+            <div class="sect2">
+                <div id="ico1"><i class="fa-solid fa-file-circle-exclamation" style="color: #9c9c9c;"></i></div>
+                <h2>Réclamations</h2>
+                <button id="reclamationButton">Faire une réclamation</button>
+                <div id="reclamationModal" class="modal">
+                    <div class="modal-content">
+                    <span class="close1">&times;</span>
+                    <h2>Faire une réclamation</h2>
+                    <form id="reclamationForm" action="#" method="post" enctype="multipart/form-data">
+                    <div class="input-box">
+                        <input type="email" name="Email" id="inputEmail" placeholder="Votre Email" required>
+                        <span id="emailStatus"></span>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="appogee" id="inputAppogee" placeholder="Code Apogée" required>
+                        <span id="appogeeStatus"></span>
+                    </div>
+                    <div class="input-box">
+                        <select id="selectType" name="Type">
+                            <option value="">Type de document</option>
+                            <option value="Attestation de Reussite">Attestation de Réussite</option>
+                            <option value="Convention de Stage">Convention de Stage</option>
+                            <option value="Attestation de Scolarité">Attestation de Scolarité</option>
+                            <option value="Relevé de Notes">Relevé de Notes</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <div id="reclamationField" style="display: none;">
+                            <textarea type="text" id="inputReclamation" name="yearReleve"
+                                placeholder="Écrivez votre réclamation ici..." required></textarea>
+                        </div>
+                    </div>
+
+
+                    <div  >
+                        <input type="hidden" name="idstudent" id="inputIdStudent" value="<?php echo $idStudent; ?>">
+                    </div>
+                    <div class="input-box">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="reclamation.js"></script>
+</body>
+
+
+</html>

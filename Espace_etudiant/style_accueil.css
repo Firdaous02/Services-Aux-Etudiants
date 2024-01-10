@@ -1,0 +1,91 @@
+/* Start Header */
+a {
+  text-decoration: none;
+}
+header {
+  padding: 0 0 ; 
+}
+nav ul {
+  list-style-type: none;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 0;
+}
+nav ul li {
+  margin: 0 70px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+nav ul li img {
+  font-size: 14px;
+} 
+nav ul li a {
+  color: #17657D; 
+  text-decoration: none; 
+  transition: color 0.3s ease; 
+}
+nav ul li a:hover {
+  color: #333; 
+  font-size: 25px;
+  text-decoration: none;
+}
+/*   end style du head */
+/* Styles pour le texte introductif */
+h2 {
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Styles pour la section principale */
+  .main_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  /* Styles pour les sections "Espace Demandes" et "Espace Réclamations" */
+  .sect2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Styles pour les icônes */
+  #ico1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles pour les titres des sections */
+  .sect2 h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour les boutons */
+  #button1,
+  #reclamationButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #17657D;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #button1:hover,
+  #reclamationButton:hover {
+    background-color: #144e60;
+  }
+  
