@@ -1,1 +1,2 @@
 # Services-Aux-Etudiants
+✨Services aux étudiants✨ is an innovative platform designed to simplify the process of requesting and receiving academic documents for students and administrators. It consists of two spaces: the student space, where students can request documents, and the administrator space that includes a comprehensive dashboard. Administrators can manage requests/complaints, handle document delivery, send reasons for refusal via email, and track history with document review and download options.
