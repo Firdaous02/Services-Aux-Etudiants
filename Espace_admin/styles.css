@@ -1,0 +1,125 @@
+
+.search {
+  position: relative;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 65%;
+}
+  
+  .search label {
+    position: relative;
+    width: 100%;
+  }
+  
+  .search label input {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 5px 20px;
+    padding-left: 35px;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid var(--black2); 
+  }
+  
+  .search label #icon {
+    position: absolute;
+    margin-top: 13px;
+    top: 0;
+    left: 10px;
+    font-size: 1.6rem;
+  }
+  .search label #icon2 {
+    position: absolute;
+    margin-top: 13px;
+    top: 0;
+    right: 10px;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  /*.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: #000 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  } */
+  
+  h1 {
+    text-align: center;  
+    font-family: 'Lobster';
+  } 
+  .title2{
+    text-align: center;
+    margin-bottom: 30px; 
+  }
+  .title3{
+    text-align: center;
+    margin-bottom: 50px; 
+    margin-left: 25%;
+  }
+  
+  .ppp2{
+    margin:10px 0;
+	  padding:10px 10px;
+	  border:1px solid #bbb;
+	  border-radius:20px;
+	  display:inline-block;
+    text-align: center;
+    background-color: #6DB66D;
+    color: #000;
+  }
+  .ppp3{
+    margin:10px 0;
+	  padding:10px 10px;
+	  border:1px solid #bbb;
+	  border-radius:20px;
+	  display:inline-block;
+    text-align: center;
+    background-color: #D53737;
+    color: #000;
+  }
+  button{
+    margin:10px 0;
+	  padding:10px 10px;
+	  border:1px solid #bbb;
+	  border-radius:20px;
+	  display:inline-block;
+    text-align: center;
+    background-color: #bbb;
+    color: #000;
+    border: 1px solid #bbb;
+  }
+  button:hover{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+  }
+  .results-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .result-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 50px;
+
+  }
+  td,
+  th {
+    padding: 10px 16px;
+    text-align: center;
+  }

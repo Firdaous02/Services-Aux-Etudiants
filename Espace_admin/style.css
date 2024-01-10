@@ -1,0 +1,122 @@
+/* style du header*/
+
+header {
+    padding: 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    font-size: 14px;
+}
+
+nav ul .li1 {
+    display: inline;
+    margin: 0 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.div1 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    margin-top: -1rem;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.image3 {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image3 img {
+    max-width: 100%;
+    height: auto;
+    width: 880px;
+    /* Augmenter la largeur de l'image */
+}
+
+
+.container form input {
+    margin: 10px 0;
+    padding: 15px 10px;
+    width: 65%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.ppp22 {
+    text-align: center;
+}
+
+.ppp12 {
+    margin: 10px 0;
+    padding: 15px 10px;
+    width: 65%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: #050505;
+    color: #fff;
+    border: 2px solid #17657D;
+}
+
+.ppp12:hover {
+    text-align: center;
+    background-color: #050505;
+    color: #fff;
+    border: 2px solid #17657D;
+}
+
+/* style de section du a propos*/
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.prag_1 {
+    flex: 1;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    font-size: 18px;
+    font-family: 'Nunito';
+    color: black;
+    text-align: center;
+    margin-top: -3rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.prag_1 .phrase {
+    font-weight: bolder;
+}
